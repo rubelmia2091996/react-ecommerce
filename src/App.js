@@ -9,11 +9,8 @@ function App() {
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
-        <Rubel/>
-        <Welcome name="Bangladesh" area="50"/>
-        <Welcome name="INDIA" area="60"/>
-        <Welcome name="USA" area="70"/>
-        <Welcome name="RUSSIA" area="80"/>
+        <Rubel/> 
+        <Welcome/>
         
       </header>
     </div>
