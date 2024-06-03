@@ -30,9 +30,37 @@ class Hunter extends Component{
               hobbies: ["swimming", "photography"]
             }
           ]
-    };
+    }; 
 
     findAge = (id)=>{
+      this.setState({
+        people:[
+          {
+            name: "Rubel",
+            age: 30,
+            occupation: "Engineer",
+            hobbies: ["reading", "travelling"]
+          },
+          {
+            name: "Mia",
+            age: 25,
+            occupation: "Designer",
+            hobbies: ["drawing", "cycling"]
+          },
+          {
+            name: "musta",
+            age: 40,
+            occupation: "Teacher",
+            hobbies: ["writing", "hiking"]
+          },
+          {
+            name: "fiz",
+            age: 35,
+            occupation: "Doctor",
+            hobbies: ["swimming", "photography"]
+          }
+        ]
+      })
       alert(this.state.people[id].age);
     }
       
